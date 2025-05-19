@@ -15,7 +15,8 @@ distance(m) = 10 ^ (((-59)-RSSI)/(10*2.0))
 ## Test and Analyze
 - Graph of Distance estimation model & RSSI value measured at actual distance
   
-![output (1).png](attachment:00ac2e37-bcc5-4737-8383-e9779d120c79:output_(1).png)
+![IoT25-HW07_graph](https://github.com/user-attachments/assets/748543fd-330c-4683-b602-1dc3aabd6f06)
+
 
 
 ### Why is there a slight difference with the model
