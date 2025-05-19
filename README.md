@@ -1,5 +1,5 @@
 # IoT25-HW07
-- - -
+
 
 ## Distance Estimation Model
 <pre><code>
@@ -12,3 +12,19 @@ distance(m) = 10 ^ (((-59)-RSSI)/(10*2.0))
 
 - - -
 
+## Test and Analyze
+- Graph of Distance estimation model & RSSI value measured at actual distance
+  
+![output (1).png](attachment:00ac2e37-bcc5-4737-8383-e9779d120c79:output_(1).png)
+
+
+### Why is there a slight difference with the model
+1. **Environmental Factors**
+* Multipath Propagation
+* Signal Absorption
+* Signal Interference
+2. **Model Simplification**
+* Although the model set pathLossExponent to a fixed value (2.0), it can vary in the range of 1.6 to 3.5 in real-world environments.
+3. **Volatility of BLE signal (BLE Signal Fluctuation)**
+* The BLE signal fluctuates over time.
+* Therefore, it is more accurate to use the average value after multiple measurements, rather than a single sample.
