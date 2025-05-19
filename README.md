@@ -29,3 +29,11 @@ distance(m) = 10 ^ (((-59)-RSSI)/(10*2.0))
 3. **Volatility of BLE signal (BLE Signal Fluctuation)**
 * The BLE signal fluctuates over time.
 * Therefore, it is more accurate to use the average value after multiple measurements, rather than a single sample.
+
+- - -
+
+
+## Demo video
+https://drive.google.com/file/d/1HXvBzpx5t_Fgruiuz1zJ3qvO1O_kR6uc/view?usp=sharing
+
+
