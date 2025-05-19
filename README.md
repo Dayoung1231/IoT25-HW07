@@ -32,8 +32,14 @@ distance(m) = 10 ^ (((-59)-RSSI)/(10*2.0))
 
 - - -
 
-
 ## Demo video
 https://drive.google.com/file/d/1HXvBzpx5t_Fgruiuz1zJ3qvO1O_kR6uc/view?usp=sharing
 
+- - -
 
+## Screenshot
+1. Server
+<img width="631" alt="HW07_server" src="https://github.com/user-attachments/assets/e07745f6-0197-4787-b7a5-e2b4246a0ee7" />
+
+2. Client
+![HW07_client](https://github.com/user-attachments/assets/8e171f48-f265-423b-b976-4ee6ef732782)
